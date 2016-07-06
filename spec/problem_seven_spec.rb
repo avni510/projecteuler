@@ -13,6 +13,13 @@ describe "ProblemSeven" do
 
     end
 
+    it "returns the first prime number" do
+      expect(ProblemSeven.nth_prime(1)).to eq(2)
+    end
+
+    it "returns the second prime number" do
+      expect(ProblemSeven.nth_prime(2)).to eq(3)
+    end
   end
 
 end
